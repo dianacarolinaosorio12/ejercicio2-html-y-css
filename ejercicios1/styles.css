@@ -1,0 +1,35 @@
+.form-wrapper {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background: linear-gradient(to bottom, #540053, #322ea0);
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #c79898;
+  }
+  
+  h2, form
+   {
+    color: white;
+  }
+  
+  input[type="Email"],
+  input[type="contraseña"],
+  select[id="Género"],
+  input [type="checkbox"]
+  label {
+    display: block;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    padding:7px;
+    width: 100%;
+    border:1px solid #ccc;
+
+
+    
+  }
+  
+  button {
+    padding: 5px 15px;
+    float: right;
+  }
+  
